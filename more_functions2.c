@@ -123,7 +123,7 @@ char *convert_number(long int num, int base, int flags)
 
 /**
  * comments_remover - function replaces first instance of '#' with '\0'
- * @buf: address of the string to modify
+ * @buff: address of the string to modify
  *
  * Return: Always 0;
  */
