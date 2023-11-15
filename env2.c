@@ -18,7 +18,7 @@ char **get_envi(info_t *inf)
 }
 
 /**
- * unsetenvi - Remove an environment variable
+ * unset_envi - Remove an environment variable
  * @inf: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: 1 on delete, 0 otherwise
