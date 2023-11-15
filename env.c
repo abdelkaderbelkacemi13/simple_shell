@@ -19,7 +19,7 @@ int myenvi(info_t *inf)
  *
  * Return: the value
  */
-char *getenvi(info_t *infi, const char *name)
+char *getenvi(info_t *inf, const char *name)
 {
 	list_t *nod = infi->env;
 	char *po;
