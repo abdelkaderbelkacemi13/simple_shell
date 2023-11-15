@@ -138,7 +138,7 @@ int vars_replace(info_t *inf)
 }
 
 /**
- * str_replace - a function used to replace a string
+ * str_rplace - a function used to replace a string
  * @old: address of old string
  * @new: new string
  *
