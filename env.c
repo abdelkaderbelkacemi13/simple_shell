@@ -35,7 +35,7 @@ char *getenvi(info_t *inf, const char *name)
 }
 
 /**
- * setenvi - a functio to Initialize a new environment variable,
+ * stenvi - a functio to Initialize a new environment variable,
  *             or modify an existing one
  * @inf: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
