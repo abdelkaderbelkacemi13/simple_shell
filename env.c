@@ -21,7 +21,7 @@ int myenvi(info_t *inf)
  */
 char *getenvi(info_t *inf, const char *name)
 {
-	list_t *nod = infi->env;
+	list_t *nod = inf->env;
 	char *po;
 
 	while (nod)
@@ -33,7 +33,6 @@ char *getenvi(info_t *inf, const char *name)
 	}
 	return (NULL);
 }
-
 /**
  * stenvi - a functio to Initialize a new environment variable,
  *             or modify an existing one
